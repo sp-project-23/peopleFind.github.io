@@ -58,7 +58,7 @@ li{
     grid-row: 2/3;
     padding: 10px;
 }
-button{
+.btn{
     background-color: orange;
     border-radius: 20px;
     color: white;
