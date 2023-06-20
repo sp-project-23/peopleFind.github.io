@@ -3,7 +3,8 @@ body{
 }
 h2{
     color: white;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'arial';
 }
 .container{
     display: flex;
@@ -58,7 +59,10 @@ li{
     padding: 10px;
 }
 .btn{
+    background-color: orange;
     border-radius: 20px;
+    color: white;
+    font-weight: 500;
 }
 .note{
     display: flex;
