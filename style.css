@@ -61,6 +61,7 @@ li{
 .btn{
     background-color: orange;
     border-radius: 20px;
+    border: none;
     color: white;
     font-weight: 500;
 }
