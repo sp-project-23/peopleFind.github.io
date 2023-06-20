@@ -53,7 +53,7 @@ function nextCard(parent){
             parent.appendChild(createCard(element, (page*3)-(3-index)+1));
         });
 
-        document.getElementById("note").innerText = `CURRENTLT ${items.length} PEOPLE SHOWING`;
+        document.getElementById("note").innerText = `CURRENTLY ${items.length} PEOPLE SHOWING`;
 
     }
     else
