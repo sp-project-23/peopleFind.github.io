@@ -5,8 +5,9 @@ h2{
     color: white;
     font-weight: 700;
     font-family: 'arial';
-    font-size: 30px;
+    font-size: 28px;
     align-self:center;
+    margin-left: 10px;
 }
 .container{
     display: flex;
@@ -18,7 +19,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     width: 450px;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 ul{
     width: 400px;
@@ -51,7 +52,7 @@ li{
     border-radius: 5px;
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 10px;
+    padding: 5px;
     font-family: arial;
     font-size: 20px;
 }
@@ -60,7 +61,7 @@ li{
     border-radius: 5px;
     grid-column: 2/3;
     grid-row: 2/3;
-    padding: 10px;
+    padding: 5px;
     font-family: arial;
     font-size: 20px;
 }
@@ -71,7 +72,6 @@ li{
     color: white;
     font-weight: 600;
     font-size: 14px;
-    margin: 20px;
     height: 35px;
     width: 120px;
 }
