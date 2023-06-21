@@ -5,6 +5,8 @@ h2{
     color: white;
     font-weight: 700;
     font-family: 'arial';
+    font-size: 26px;
+    align-self:center;
 }
 .container{
     display: flex;
@@ -50,6 +52,8 @@ li{
     grid-column: 2/3;
     grid-row: 1/2;
     padding: 10px;
+    font-family: arial;
+    font-size: 20px;
 }
 .loc{
     background-color: white;
@@ -57,13 +61,19 @@ li{
     grid-column: 2/3;
     grid-row: 2/3;
     padding: 10px;
+    font-family: arial;
+    font-size: 20px;
 }
 .btn{
     background-color: orange;
-    border-radius: 20px;
+    border-radius: 25px;
     border: none;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 20px;
+    height: 35px;
+    width: 120px;
 }
 .note{
     display: flex;
@@ -71,4 +81,5 @@ li{
     justify-content: center;
     color: white;
     font-weight: 500;
+    font-family: 'arial';
 }

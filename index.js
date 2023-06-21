@@ -10,18 +10,23 @@ function createCard(data, serial)
     let li = document.createElement("li");
     let div = document.createElement("div");
     let span = document.createElement("span");
+    let label_name = document.createElement("label");    
+    let label_loc = document.createElement("label");
+
+    let name = label_name.innerText = "Name : ";
+    let loc = label_loc.innerText = "Location : ";
 
     div.appendChild(span);
 
     let div2 = div.cloneNode(true);
-    let div3 = document.createElement("div");
+    let div3 = document.createElement("div");    
 
     li.appendChild(div3);
     li.appendChild(div);
     li.appendChild(div2);
 
-    div.children[0].innerText = data.name;
-    div2.children[0].innerText = data.location;
+    div.children[0].innerText = name + data.name;
+    div2.children[0].innerText = loc + data.location;
     div3.innerText = serial;
     
     div3.classList.add("serial");
