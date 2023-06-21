@@ -31,7 +31,7 @@ function createCard(data, serial)
     return li;
 }
 
-let ul = document.getElementById("card");
+let card = document.getElementById("card");
 
 function paginate(array, page_size, page_number) {
     // human-readable page numbers usually start with 1, so we reduce 1 in the first argument
@@ -40,7 +40,7 @@ function paginate(array, page_size, page_number) {
 
 
 var page = 0;
-nextCard(ul);
+nextCard(card);
 
 function nextCard(parent){
 
@@ -56,8 +56,10 @@ function nextCard(parent){
         document.getElementById("note").innerText = `CURRENTLY ${items.length} PEOPLE SHOWING`;
 
     }
-    else
+    else{
+        card.remove();
         document.getElementById("note").innerText = `NO MORE PEOPLE!`;
+    }
 }
 
-document.getElementById("btn").addEventListener("click", ()=>nextCard(ul));
+document.getElementById("btn").addEventListener("click", ()=>nextCard(card));
