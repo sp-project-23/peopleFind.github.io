@@ -1,4 +1,4 @@
-import data from 'https://sp-project-23.github.io/peopleFind.github.io/data.json';
+import data from 'https://sp-project-23.github.io/peopleFind.github.io/data.json' with { type: 'json' };
 // console.log(data);
 
 var data_size = data.length;
