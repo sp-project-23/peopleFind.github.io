@@ -1,6 +1,6 @@
 
 import data from 'https://sp-project-23.github.io/peopleFind.github.io/data.json' assert { type: 'json' };
-console.log(data);
+// console.log(data);
 
 var data_size = data.length;
 var pages_required = data.length/3;
