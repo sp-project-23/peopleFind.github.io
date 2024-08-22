@@ -1,5 +1,4 @@
-
-import data from 'https://sp-project-23.github.io/peopleFind.github.io/data.json' assert { type: 'json' };
+import data from 'https://sp-project-23.github.io/peopleFind.github.io/data.json';
 // console.log(data);
 
 var data_size = data.length;
@@ -43,11 +42,12 @@ var page = 0;
 nextCard(card);
 
 function nextCard(parent){
+    // alert('hi');
 
     if(page<=pages_required){
         
         let items = paginate(data, 3, ++page);
-        console.log(items);
+        // console.log(items);
         parent.innerHTML = "";
         items.forEach((element, index) => {
             parent.appendChild(createCard(element, (page*3)-(3-index)+1));
